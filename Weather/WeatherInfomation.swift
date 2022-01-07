@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct weatherInfomotion :Codable {
+struct WeatherInfomotion :Codable {
     let weather: [Weather]
     let temp: Temp
     let name: String
